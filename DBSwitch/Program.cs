@@ -11,6 +11,9 @@ MySqlCommand command = new MySqlCommand(query, conn);
 
 
 
+
+
+
 try
 {
     conn.Open();
