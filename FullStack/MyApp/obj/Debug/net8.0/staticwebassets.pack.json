@@ -5,6 +5,38 @@
       "PackagePath": "staticwebassets\\MyApp.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\IET\\Desktop\\DotNet\\FullStack\\MyApp\\wwwroot\\Images\\bg.jpg",
+      "PackagePath": "staticwebassets\\Images\\bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\IET\\Desktop\\DotNet\\FullStack\\MyApp\\wwwroot\\Images\\burger.jpg",
+      "PackagePath": "staticwebassets\\Images\\burger.jpg"
+    },
+    {
+      "Id": "C:\\Users\\IET\\Desktop\\DotNet\\FullStack\\MyApp\\wwwroot\\Images\\cli.png",
+      "PackagePath": "staticwebassets\\Images\\cli.png"
+    },
+    {
+      "Id": "C:\\Users\\IET\\Desktop\\DotNet\\FullStack\\MyApp\\wwwroot\\Images\\coffee.jpg",
+      "PackagePath": "staticwebassets\\Images\\coffee.jpg"
+    },
+    {
+      "Id": "C:\\Users\\IET\\Desktop\\DotNet\\FullStack\\MyApp\\wwwroot\\Images\\contact.jpg",
+      "PackagePath": "staticwebassets\\Images\\contact.jpg"
+    },
+    {
+      "Id": "C:\\Users\\IET\\Desktop\\DotNet\\FullStack\\MyApp\\wwwroot\\Images\\food.jpg",
+      "PackagePath": "staticwebassets\\Images\\food.jpg"
+    },
+    {
+      "Id": "C:\\Users\\IET\\Desktop\\DotNet\\FullStack\\MyApp\\wwwroot\\Images\\logo.png",
+      "PackagePath": "staticwebassets\\Images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\IET\\Desktop\\DotNet\\FullStack\\MyApp\\wwwroot\\Images\\pizza.jpg",
+      "PackagePath": "staticwebassets\\Images\\pizza.jpg"
+    },
+    {
       "Id": "C:\\Users\\IET\\Desktop\\DotNet\\FullStack\\MyApp\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
