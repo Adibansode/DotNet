@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\IET\\Desktop\\DotNet\\FullStack\\BOL\\BOL.csproj",
+      "projectUniqueName": "C:\\Users\\IET\\Desktop\\ab dotnet\\DotNet\\FullStack\\BOL\\BOL.csproj",
       "projectName": "BOL",
-      "projectPath": "C:\\Users\\IET\\Desktop\\DotNet\\FullStack\\BOL\\BOL.csproj",
+      "projectPath": "C:\\Users\\IET\\Desktop\\ab dotnet\\DotNet\\FullStack\\BOL\\BOL.csproj",
       "packagesPath": "C:\\Users\\IET\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\IET\\Desktop\\DotNet\\FullStack\\BOL\\obj\\",
+      "outputPath": "C:\\Users\\IET\\Desktop\\ab dotnet\\DotNet\\FullStack\\BOL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\IET\\AppData\\Roaming\\NuGet\\NuGet.Config"

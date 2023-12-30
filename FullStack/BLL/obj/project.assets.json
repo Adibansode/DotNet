@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\IET\\Desktop\\DotNet\\FullStack\\BLL\\BLL.csproj",
+      "projectUniqueName": "C:\\Users\\IET\\Desktop\\ab dotnet\\DotNet\\FullStack\\BLL\\BLL.csproj",
       "projectName": "BLL",
-      "projectPath": "C:\\Users\\IET\\Desktop\\DotNet\\FullStack\\BLL\\BLL.csproj",
+      "projectPath": "C:\\Users\\IET\\Desktop\\ab dotnet\\DotNet\\FullStack\\BLL\\BLL.csproj",
       "packagesPath": "C:\\Users\\IET\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\IET\\Desktop\\DotNet\\FullStack\\BLL\\obj\\",
+      "outputPath": "C:\\Users\\IET\\Desktop\\ab dotnet\\DotNet\\FullStack\\BLL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\IET\\AppData\\Roaming\\NuGet\\NuGet.Config"

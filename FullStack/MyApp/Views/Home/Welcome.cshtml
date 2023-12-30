@@ -10,244 +10,288 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" media="screen and (max-width:1520px" href="css/responsive.css">
 
-<style>
-    #navbar{
-    @* position: fixed; *@
-    display: flex;
-    font-family: sans-serif;
-    width: 100%;
-    height: 50px;
-    margin-bottom: 50px !important;
-}
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
 
-#navbar::before{
-        content: "";
-        background-color: black;
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        z-index: -1;
-        opacity: 0.4;
-}
+        #navbar {
+            display: inline;
+            position: fixed;
+            display: flex;
+            font-family: sans-serif;
+            width: 100%;
+            height: 50px;
+            margin-bottom: 50px !important;
+        }
 
-img{
-    height: 40px;
-    margin: 5px 10px;
-}
-#navbar ul{
-    @* margin: 10px; *@
-    display: flex;
-    list-style: none;
-}
+        #navbar::before {
+            content: "";
+            background-color: black;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            opacity: 0.4;
+        }
 
-#navbar ul li{
-    /* color: white; */
-    font-size: 20px;
-}
+        .navbar img {
+            height: 40px;
+            margin: 5px 10px;
 
-#navbar ul li a{
-    color: white;
-    
-    padding:10px;
-    margin-left: 15px;
-    border-radius: 20px;
-    text-decoration: none;
-}
-#navbar ul li a:hover{
-    color: black;
-    background-color: white;
-}
+        }
 
-#home{
-    display:flex ;
-    flex-direction: column;
-    @* padding: 5px 15px; *@
-    justify-content: center;
-    align-items: center;
-    font-size: 20px;
-    height: 300px;
-    padding: 10px;
-    @* background-color: aliceblue; *@
-}
+        #navbar ul {
+        @*margin:10px;*@display: flex;
+            list-style: none;
+        }
 
-   #home::before{  
-      content: "";
-      position: absolute ;
-    background: url(https://source.unsplash.com/1600x900/?pizza,burger,coffee);
-     height:25%;
-    width: 100%;
-    z-index: -1;
-    opacity: 0.6;
-    margin-bottom: 200px;
- }  
-#home h1{
-    color: black;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-}
- p{
-     font-weight: bolder;
-     /* background: blanchedalmond; */
-    color: rgb(24, 22, 22);
-    text-align: center;
-    font-size: 20px;
-    font-family: 'Montserrat', sans-serif;
+        #navbar ul li {
+            /* color: white; */
+            font-size: 20px;
+        }
 
-}   
-#home button{
-    padding: 6px 20px;
-    border: 2px solid white;
-    border-radius: 10px;
-    background-color: sandybrown;
-    margin: 20px;
-    cursor: pointer;
-}
-#home button:hover{
-    background-color: crimson;
-}
-#services{
-    margin-top: 50px;
-}
-.service h1{
-    @* margin-top: 220px; *@
-    text-align: center;
-}
+        #navbar ul li a {
+            align-content: center;
+            color: white;
+            padding: 10px;
+            margin-left: 15px;
+            border-radius: 20px;
+            text-decoration: none;
+        }
 
-.services{
-    margin-top: 3px;
-    display: flex;
-   
-}
-.services .box{
-    border: 2px solid brown;
-    margin: 5px;
-    margin-bottom: 30px;
-    border-radius: 10px;
-    background-color:  cornsilk;
-}
-.service p{
-    font-size: 15px;
-}
-.service img{
-    /* align-items: center; */
-    border: 2px solid black;
-    display: flex;
-    height: 150px;
-}
-.service .h-secondary{
-    /* display: flex; */
-    text-align:center ;
-    font-size: large;
-    font-size: 30px;
-    font-family: fantasy;
-}
-.service img{
-    margin: 20px 33px;
-}
-    #client-section{
-   margin: 5px;
-}
+        #navbar ul li a:hover {
+            color: black;
+            background-color: white;
+        }
 
-#client-section .h-primary{
-    text-align: center;
-    font-size: 50px;
-}
-#clients{
-     display: flex;
-    align-items: center;
-    justify-content: center; 
-   
-}
-#clients img{
-    height: 350px;
-    width: 100%;  
-}
-#client-section::before{
-    content: "";
-    position: absolute;
-   width: 100%;
-    height: 70%; 
-    z-index: -1;
-    opacity: 0.5;
-}
+        #home {
+            display: flex;
+            flex-direction: column;
+            padding: 5px 15px;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+            height: 600px;
+            padding: 10px;
+        @*background-color:aliceblue;*@
+        }
 
-#contact{
-    position: relative;
-    height: 600px;
-    margin:5px;
-    margin-top: 88px;
-}
-#contact::before{
-    content: "";
-    position: absolute;
-    background: url('../contact.jpg');
-    background-size: cover;
-    width: 100%;
-    height: 100%; 
-    z-index: -1;
-    opacity: 0.8;
-}
-#contact-box{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 34px;
-}
+        #home::before {
+            content: "";
+            position: absolute;
+            background: url(https://source.unsplash.com/1600x900/?pizza,burger,coffee);
+            height: 25%;
+            width: 100%;
+            z-index: -1;
+            opacity: 0.6;
+            margin-bottom: 200px;
+        }
 
-#contact-box input,
-#contact-box textarea{
-    width: 100%;
-    padding:10px;
-}
-#contact-box form{
-    width: 40%;
-}
-#contact .h-primary{
-    text-align: center;
-    font-size: 50px;
-}
-#contact .xyz{
-    font-size: 20px;
-    font-weight:600;
-}
-#contact button{
-    color: blanchedalmond;
-    padding: 6px 20px;
-    border: 2px solid white;
-    border-radius: 10px;
-    background-color: black;
-    margin: 2px;
-    cursor: pointer;
+        #home h1 {
+            color: black;
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+        }
 
-}
-#contact button:hover{
- background-color: darkred;
- color:whitesmoke;
+        p {
+            font-weight: bolder;
+            /* background: blanchedalmond; */
+            color: rgb(24, 22, 22);
+            text-align: center;
+            font-size: 20px;
+            font-family: 'Montserrat', sans-serif;
 
-}
-#contact marquee{
-    background-color:white ;
-    font-size: 40px;
-    color:rgb(15, 15, 15);
-}
-</style>
+        }
+
+        #home button {
+            padding: 6px 20px;
+            border: 2px solid white;
+            border-radius: 10px;
+            background-color: sandybrown;
+            margin: 20px;
+            cursor: pointer;
+        }
+
+        #home button:hover {
+            background-color: crimson;
+        }
+
+        #services {
+            margin-top: 20px;
+        }
+
+        .box button {
+
+            color: blanchedalmond;
+            border: 2px solid white;
+            border-radius: 10px;
+            background-color: black;
+            margin-left: 37%;
+            cursor: pointer;
+            margin-bottom: 10px;
+        }
+
+        .service h1 {
+        @*margin-top:220px;*@text-align: center;
+        }
+
+        .services {
+            margin-top: 3px;
+            display: flex;
+
+        }
+
+        .services .box {
+            border: 2px solid brown;
+            margin: 5px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            background-color: cornsilk;
+        }
+
+        .service p {
+            font-size: 15px;
+        }
+
+        .service img {
+            /* align-items: center; */
+            border: 2px solid black;
+            display: flex;
+            height: 150px;
+        }
+
+        .service .h-secondary {
+            /* display: flex; */
+            text-align: center;
+            font-size: large;
+            font-size: 30px;
+            font-family: fantasy;
+        }
+
+        .service img {
+            margin: 20px 33px;
+        }
+
+        #client-section {
+            margin: 5px;
+        }
+
+        #client-section .h-primary {
+            text-align: center;
+            font-size: 50px;
+        }
+
+        #clients {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        #clients img {
+            height: 350px;
+            width: 100%;
+        }
+
+        #client-section::before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 70%;
+            z-index: -1;
+            opacity: 0.5;
+        }
+
+        #contact {
+
+            height: 600px;
+            margin: 5px;
+            margin-top: 88px;
+        }
+
+        #contact::before {
+            content: "";
+            position: absolute;
+            background: url('../contact.jpg');
+            background-size: cover;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            opacity: 0.8;
+        }
+
+        #contact-box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 34px;
+        }
+
+        #contact-box input,
+        #contact-box textarea {
+            width: 100%;
+            padding: 10px;
+        }
+
+        #contact-box form {
+            width: 40%;
+        }
+
+        #contact .h-primary {
+            text-align: center;
+            font-size: 50px;
+        }
+
+        #contact .xyz {
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        #contact button {
+            color: blanchedalmond;
+            padding: 6px 20px;
+            border: 2px solid white;
+            border-radius: 10px;
+            background-color: black;
+            margin: 2px;
+            cursor: pointer;
+
+        }
+
+        #contact button:hover {
+            background-color: darkred;
+            color: whitesmoke;
+
+        }
+
+        #contact marquee {
+            background-color: white;
+            font-size: 40px;
+            color: rgb(15, 15, 15);
+        }
+        .out{
+            margin-left: 600px;
+        }
+    </style>
 </head>
 
 <body>
+    <section>
 
-    <nav id="navbar" class=" navbar">
-        <div class="logo ">
-            @* MyApp\wwwroot\Images\logo.png *@
-            <img src="/Images/logo.png" alt="">
-        </div>
-        <ul class="v-class">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#client-section">About Us</a></li>
-            <li><a href="#contact">Contact Us</a></li>
-        </ul>
+        <nav id="navbar" class=" navbar">
+            <ul class="v-class">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#client-section">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li class="out"><a href="./Register">Logout</a></li>
+            </ul>
 
-    </nav>
+        </nav>
+    </section>
+
 
     <section id="home">
 
@@ -271,6 +315,7 @@ img{
                     Necessitatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam eos cupiditate
                     corrupti sapiente, cum minus consequatur dolorem excepturi vero, porro eaque minima modi illo cumque
                     sunt deleniti expedita nemo atque?</p>
+                <button>Order</button>
             </div>
             <div class="box">
                 <img src="/Images/burger.jpg" alt="">
@@ -280,6 +325,8 @@ img{
                     ratione temporibus minima. Vero consequatur tenetur nam dolore autem consectetur unde tempore hic
                     modi! Aperiam, voluptatibus adipisci!
                 </p>
+                <button>Order</button>
+
             </div>
             <div class="box">
                 <div class="random">
@@ -291,6 +338,8 @@ img{
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam maiores odit sapiente dolores sunt
                     laudantium quidem nulla autem atque pariatur voluptate, amet nesciunt blanditiis. Deserunt
                     doloremque delectus rem ipsum placeat?</p>
+                <button>Order</button>
+
             </div>
         </div>
     </section>
@@ -342,7 +391,8 @@ img{
         </div>
         <marquee behavior="" direction="">!!!Best Online Food Delivery Website You Have Seen Ever!!!</marquee>
     </section>
-
+    <br>
+    <br>
 </body>
 
 </html>
