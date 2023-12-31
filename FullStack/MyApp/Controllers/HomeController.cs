@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using MyApp.Models;
 using DAL;
 using BOL;
+using Microsoft.AspNetCore.Authentication;
 
 namespace MyApp.Controllers;
 
@@ -15,52 +16,51 @@ public class HomeController : Controller
         _logger = logger;
     }
 
-        public IActionResult Login()
+    public IActionResult Login()
     {
         return View();
     }
-      [HttpPost]
-    public IActionResult Login(string username,string password)
+    [HttpPost]
+    public IActionResult Login(string username, string password)
     {
-          Login log = DBManager.validate(username,password);
-          if(log!=null){
-            Console.WriteLine(username,password);
+        Login log = DBManager.validate(username, password);
+        if (log != null)
+        {
+            Console.WriteLine(username, password);
             return RedirectToAction("Welcome");
-          }
-          else{
-                Console.WriteLine(username+" "+password);
-
-          }
-            
+        }
+        else
+        {
+            ViewData["msg"] = "Invalid Credentials!!!";
+        }
             return View();
     }
 
-    
-    
+
     public IActionResult Index()
     {
         return View();
     }
 
-  
-   public IActionResult Register()
+
+    public IActionResult Register()
     {
         return View();
     }
 
-     [HttpPost]
+    [HttpPost]
     public IActionResult Register(String username, String password, String email)
     {
- 
-        DBManager.InsertData(username,password,email);
+
+        DBManager.InsertData(username, password, email);
 
         return View();
     }
-         public IActionResult Welcome()
+    public IActionResult Welcome()
     {
         return View();
     }
-      
+
     public IActionResult Privacy()
     {
         return View();
