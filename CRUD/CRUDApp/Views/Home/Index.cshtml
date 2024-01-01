@@ -1,0 +1,23 @@
+﻿@using BOL;
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Products List</h1>
+
+
+    @{
+        List<products> allmembers = (List<products>)this.ViewData["allproducts"];
+        foreach (products p in allmembers)
+        {
+            
+            <p>
+                @p.pid.  Name of product is: <b>@p.pname </b> Price:   @p.pprice
+                Quantity: @p.qty
+            </p> 
+            
+   
+        }
+    }
+</div>

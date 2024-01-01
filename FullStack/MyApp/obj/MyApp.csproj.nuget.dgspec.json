@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Dotnet project\\DotNet\\FullStack\\MyApp\\MyApp.csproj": {}
+    "C:\\Users\\IET\\Desktop\\ab dotnet\\DotNet\\FullStack\\MyApp\\MyApp.csproj": {}
   },
   "projects": {
-    "D:\\Dotnet project\\DotNet\\FullStack\\BOL\\BOL.csproj": {
+    "C:\\Users\\IET\\Desktop\\ab dotnet\\DotNet\\FullStack\\BOL\\BOL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dotnet project\\DotNet\\FullStack\\BOL\\BOL.csproj",
+        "projectUniqueName": "C:\\Users\\IET\\Desktop\\ab dotnet\\DotNet\\FullStack\\BOL\\BOL.csproj",
         "projectName": "BOL",
-        "projectPath": "D:\\Dotnet project\\DotNet\\FullStack\\BOL\\BOL.csproj",
-        "packagesPath": "C:\\Users\\Aditya Bansode\\.nuget\\packages\\",
-        "outputPath": "D:\\Dotnet project\\DotNet\\FullStack\\BOL\\obj\\",
+        "projectPath": "C:\\Users\\IET\\Desktop\\ab dotnet\\DotNet\\FullStack\\BOL\\BOL.csproj",
+        "packagesPath": "C:\\Users\\IET\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\IET\\Desktop\\ab dotnet\\DotNet\\FullStack\\BOL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Aditya Bansode\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\IET\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -57,17 +57,17 @@
         }
       }
     },
-    "D:\\Dotnet project\\DotNet\\FullStack\\DAL\\DAL.csproj": {
+    "C:\\Users\\IET\\Desktop\\ab dotnet\\DotNet\\FullStack\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dotnet project\\DotNet\\FullStack\\DAL\\DAL.csproj",
+        "projectUniqueName": "C:\\Users\\IET\\Desktop\\ab dotnet\\DotNet\\FullStack\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "D:\\Dotnet project\\DotNet\\FullStack\\DAL\\DAL.csproj",
-        "packagesPath": "C:\\Users\\Aditya Bansode\\.nuget\\packages\\",
-        "outputPath": "D:\\Dotnet project\\DotNet\\FullStack\\DAL\\obj\\",
+        "projectPath": "C:\\Users\\IET\\Desktop\\ab dotnet\\DotNet\\FullStack\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\IET\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\IET\\Desktop\\ab dotnet\\DotNet\\FullStack\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Aditya Bansode\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\IET\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -79,8 +79,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Dotnet project\\DotNet\\FullStack\\BOL\\BOL.csproj": {
-                "projectPath": "D:\\Dotnet project\\DotNet\\FullStack\\BOL\\BOL.csproj"
+              "C:\\Users\\IET\\Desktop\\ab dotnet\\DotNet\\FullStack\\BOL\\BOL.csproj": {
+                "projectPath": "C:\\Users\\IET\\Desktop\\ab dotnet\\DotNet\\FullStack\\BOL\\BOL.csproj"
               }
             }
           }
@@ -120,17 +120,17 @@
         }
       }
     },
-    "D:\\Dotnet project\\DotNet\\FullStack\\MyApp\\MyApp.csproj": {
+    "C:\\Users\\IET\\Desktop\\ab dotnet\\DotNet\\FullStack\\MyApp\\MyApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dotnet project\\DotNet\\FullStack\\MyApp\\MyApp.csproj",
+        "projectUniqueName": "C:\\Users\\IET\\Desktop\\ab dotnet\\DotNet\\FullStack\\MyApp\\MyApp.csproj",
         "projectName": "MyApp",
-        "projectPath": "D:\\Dotnet project\\DotNet\\FullStack\\MyApp\\MyApp.csproj",
-        "packagesPath": "C:\\Users\\Aditya Bansode\\.nuget\\packages\\",
-        "outputPath": "D:\\Dotnet project\\DotNet\\FullStack\\MyApp\\obj\\",
+        "projectPath": "C:\\Users\\IET\\Desktop\\ab dotnet\\DotNet\\FullStack\\MyApp\\MyApp.csproj",
+        "packagesPath": "C:\\Users\\IET\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\IET\\Desktop\\ab dotnet\\DotNet\\FullStack\\MyApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Aditya Bansode\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\IET\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -142,8 +142,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Dotnet project\\DotNet\\FullStack\\DAL\\DAL.csproj": {
-                "projectPath": "D:\\Dotnet project\\DotNet\\FullStack\\DAL\\DAL.csproj"
+              "C:\\Users\\IET\\Desktop\\ab dotnet\\DotNet\\FullStack\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\IET\\Desktop\\ab dotnet\\DotNet\\FullStack\\DAL\\DAL.csproj"
               }
             }
           }

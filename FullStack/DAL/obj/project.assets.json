@@ -1801,19 +1801,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Aditya Bansode\\.nuget\\packages\\": {}
+    "C:\\Users\\IET\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Dotnet project\\DotNet\\FullStack\\DAL\\DAL.csproj",
+      "projectUniqueName": "C:\\Users\\IET\\Desktop\\ab dotnet\\DotNet\\FullStack\\DAL\\DAL.csproj",
       "projectName": "DAL",
-      "projectPath": "D:\\Dotnet project\\DotNet\\FullStack\\DAL\\DAL.csproj",
-      "packagesPath": "C:\\Users\\Aditya Bansode\\.nuget\\packages\\",
-      "outputPath": "D:\\Dotnet project\\DotNet\\FullStack\\DAL\\obj\\",
+      "projectPath": "C:\\Users\\IET\\Desktop\\ab dotnet\\DotNet\\FullStack\\DAL\\DAL.csproj",
+      "packagesPath": "C:\\Users\\IET\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\IET\\Desktop\\ab dotnet\\DotNet\\FullStack\\DAL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Aditya Bansode\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\IET\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -1825,8 +1825,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Dotnet project\\DotNet\\FullStack\\BOL\\BOL.csproj": {
-              "projectPath": "D:\\Dotnet project\\DotNet\\FullStack\\BOL\\BOL.csproj"
+            "C:\\Users\\IET\\Desktop\\ab dotnet\\DotNet\\FullStack\\BOL\\BOL.csproj": {
+              "projectPath": "C:\\Users\\IET\\Desktop\\ab dotnet\\DotNet\\FullStack\\BOL\\BOL.csproj"
             }
           }
         }

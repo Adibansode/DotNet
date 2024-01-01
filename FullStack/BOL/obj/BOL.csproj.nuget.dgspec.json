@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Dotnet project\\DotNet\\FullStack\\BOL\\BOL.csproj": {}
+    "C:\\Users\\IET\\Desktop\\ab dotnet\\DotNet\\FullStack\\BOL\\BOL.csproj": {}
   },
   "projects": {
-    "D:\\Dotnet project\\DotNet\\FullStack\\BOL\\BOL.csproj": {
+    "C:\\Users\\IET\\Desktop\\ab dotnet\\DotNet\\FullStack\\BOL\\BOL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dotnet project\\DotNet\\FullStack\\BOL\\BOL.csproj",
+        "projectUniqueName": "C:\\Users\\IET\\Desktop\\ab dotnet\\DotNet\\FullStack\\BOL\\BOL.csproj",
         "projectName": "BOL",
-        "projectPath": "D:\\Dotnet project\\DotNet\\FullStack\\BOL\\BOL.csproj",
-        "packagesPath": "C:\\Users\\Aditya Bansode\\.nuget\\packages\\",
-        "outputPath": "D:\\Dotnet project\\DotNet\\FullStack\\BOL\\obj\\",
+        "projectPath": "C:\\Users\\IET\\Desktop\\ab dotnet\\DotNet\\FullStack\\BOL\\BOL.csproj",
+        "packagesPath": "C:\\Users\\IET\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\IET\\Desktop\\ab dotnet\\DotNet\\FullStack\\BOL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Aditya Bansode\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\IET\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"

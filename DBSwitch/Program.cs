@@ -5,15 +5,6 @@ conn.ConnectionString = "server=192.168.10.150;port=3306;user=dac10;password=wel
 string query = "select * from t1";
 MySqlCommand command = new MySqlCommand(query, conn);
 
-
-
-
-
-
-
-
-
-
 try
 {
     conn.Open();
