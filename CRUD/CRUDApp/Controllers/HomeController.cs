@@ -42,32 +42,41 @@ public IActionResult update(int pid,string pname)
         
         return View();
     }
-    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-    public IActionResult Error()
-    {
-        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-    }
 
-
-
-
-     public IActionResult update()
+     public IActionResult insert()
     {
         return View();
     }
 
 [HttpPost]
-public IActionResult update(int pid,string pname)
+     public IActionResult insert(int pid,string pname,int pprice,int qty)
     {
-        Console.WriteLine(pid +" "+ pname);
-        DBManager.updatebyid(pid,pname);
-                Console.WriteLine(pid +" "+ pname);
-        
+        DBManager.insert(pid,pname,pprice,qty);
         return View();
     }
+
+
+   public IActionResult delete()
+    {
+        return View();
+    }
+
+[HttpPost]
+     public IActionResult delete(int pid)
+    {
+        DBManager.Deletebyid(pid);
+        return View();
+    }
+
+
+
+
+
+
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {
         return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
     }
+ 
 }

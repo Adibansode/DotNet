@@ -10,3 +10,15 @@ C:\Users\IET\Desktop\ab dotnet\DotNet\CRUD\BOL\obj\Debug\net8.0\BOL.dll
 C:\Users\IET\Desktop\ab dotnet\DotNet\CRUD\BOL\obj\Debug\net8.0\refint\BOL.dll
 C:\Users\IET\Desktop\ab dotnet\DotNet\CRUD\BOL\obj\Debug\net8.0\BOL.pdb
 C:\Users\IET\Desktop\ab dotnet\DotNet\CRUD\BOL\obj\Debug\net8.0\ref\BOL.dll
+C:\Users\Aditya Bansode\OneDrive\Desktop\DotNet\DotNet-main\DotNet-main\DotNet\CRUD\BOL\bin\Debug\net8.0\BOL.deps.json
+C:\Users\Aditya Bansode\OneDrive\Desktop\DotNet\DotNet-main\DotNet-main\DotNet\CRUD\BOL\bin\Debug\net8.0\BOL.dll
+C:\Users\Aditya Bansode\OneDrive\Desktop\DotNet\DotNet-main\DotNet-main\DotNet\CRUD\BOL\bin\Debug\net8.0\BOL.pdb
+C:\Users\Aditya Bansode\OneDrive\Desktop\DotNet\DotNet-main\DotNet-main\DotNet\CRUD\BOL\obj\Debug\net8.0\BOL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aditya Bansode\OneDrive\Desktop\DotNet\DotNet-main\DotNet-main\DotNet\CRUD\BOL\obj\Debug\net8.0\BOL.AssemblyInfoInputs.cache
+C:\Users\Aditya Bansode\OneDrive\Desktop\DotNet\DotNet-main\DotNet-main\DotNet\CRUD\BOL\obj\Debug\net8.0\BOL.AssemblyInfo.cs
+C:\Users\Aditya Bansode\OneDrive\Desktop\DotNet\DotNet-main\DotNet-main\DotNet\CRUD\BOL\obj\Debug\net8.0\BOL.csproj.CoreCompileInputs.cache
+C:\Users\Aditya Bansode\OneDrive\Desktop\DotNet\DotNet-main\DotNet-main\DotNet\CRUD\BOL\obj\Debug\net8.0\BOL.sourcelink.json
+C:\Users\Aditya Bansode\OneDrive\Desktop\DotNet\DotNet-main\DotNet-main\DotNet\CRUD\BOL\obj\Debug\net8.0\BOL.dll
+C:\Users\Aditya Bansode\OneDrive\Desktop\DotNet\DotNet-main\DotNet-main\DotNet\CRUD\BOL\obj\Debug\net8.0\refint\BOL.dll
+C:\Users\Aditya Bansode\OneDrive\Desktop\DotNet\DotNet-main\DotNet-main\DotNet\CRUD\BOL\obj\Debug\net8.0\BOL.pdb
+C:\Users\Aditya Bansode\OneDrive\Desktop\DotNet\DotNet-main\DotNet-main\DotNet\CRUD\BOL\obj\Debug\net8.0\ref\BOL.dll
