@@ -1,0 +1,434 @@
+package beans;
+
+public class Employee {
+	private int empid;
+	private String name;
+	private String gender;
+	public Employee() {
+		super();
+		
+	}
+	
+	public Employee(int empid, String name, String gender) {
+		super();
+		this.empid = empid;
+		this.name = name;
+		this.gender = gender;
+	}
+	
+	public int getEmpid() {
+		return empid;
+	}
+	
+	public void setEmpid(int empid) {
+		this.empid = empid;
+	}
+	
+	public String getName() {
+		return name;
+	}
+	
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	public String getGender() {
+		return gender;
+	}
+
+	public void setGender(String gender) {
+		this.gender = gender;
+	}
+	
+	@Override
+	public String toString() {
+		return "Employee [empid=" + empid + ", name=" + name + ", gender=" + gender + "]";
+	}
+	
+}
+
+
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+package beans;
+
+public class EmployeeLL {
+	Node front;
+	Node rear;
+	class Node{
+		Employee data;
+		Node next;
+		public Node(Employee val) {
+			data=val;
+			next=null;
+		}
+	}
+	
+	public EmployeeLL() {
+		super();
+		front=null;
+		rear=null;
+	}
+	
+	//For Inserting Employee
+	public void insert(Employee ob) {
+		if(rear==null) {
+			rear=new Node(ob);
+			front=rear;
+		}
+		else {
+			Node newnode=new Node(ob);
+			rear.next=newnode;
+			rear=newnode;
+		}
+	}
+	
+	//For Display All Employees
+	public void Display() {
+		Node temp=front;
+		if(front==null) {
+			System.out.println("List is empty");
+		}
+		while(temp!=null){
+			System.out.println(temp.data+"\n");
+			temp=temp.next;
+		}
+	}
+	
+	//For Removing a Employee from first
+	public void remove() {
+		Node temp=front;
+		if(front==null) {
+			System.out.println("List is Empty , can not remove");
+		}
+		else {
+			front=temp.next;
+			temp.next=null;
+			temp=null;
+			
+		}
+		
+	}
+	
+	//for Display All Female Employees
+	public void dispalyFemale() {
+		Node temp=front;
+		if(front==null) {
+			System.out.println("List is empty");
+		}
+		while(temp!=null){
+			if(temp.data.getGender().equals("F")) {
+				System.out.println(temp.data+"\n");				
+			}
+			temp=temp.next;
+		}
+		
+	}
+	
+	//for Display All Female Employees
+	public void displayMale() {
+		Node temp=front;
+		if(front==null) {
+			System.out.println("List is empty");
+		}
+		while(temp!=null){
+			if(temp.data.getGender().equals("M")) {
+				System.out.println(temp.data+"\n");				
+			}
+			temp=temp.next;
+		}
+	}
+	
+	//For Display All In Reverse Order
+	public void displayRev() {
+		Node temp=front;
+		reversed(temp);
+	}
+	
+	//method for displayRev
+	private void reversed(Node temp) {
+		Node tem=temp;
+		Node trav=temp.next;
+		if(trav!=null) {
+			reversed(trav);
+			if(trav.next==null) {
+				System.out.println(temp.next.data+"\n");				
+			}
+			System.out.println(tem.data+"\n");
+		}
+		
+	}
+	
+	//For removing All Employees By Recursion
+	public void removeall() {
+		if(front!=null) {
+			remove();
+			removeall();
+		}
+		else {
+			rear=null;
+		}
+		
+	}
+	
+	
+}
+
+
+
+
+
+
+---------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+package test;
+
+import java.util.Scanner;
+
+import beans.Employee;
+import beans.EmployeeLL;
+
+public class TestMain {
+
+	public static void main(String[] args) {
+		EmployeeLL ll=new EmployeeLL();
+		Employee ob0=new Employee(1, "Pranav Kharche", "M");
+		ll.insert(ob0);
+		Employee ob1=new Employee(2, "Bhagwan Kharche", "M");
+		ll.insert(ob1);
+		Employee ob2=new Employee(3, "Sunita Kharche", "F");
+		ll.insert(ob2);
+		Employee ob3=new Employee(4, "Roshani Kharche", "F");
+		ll.insert(ob3);
+		Scanner sc=new Scanner(System.in);
+		int ch=0;
+		do {
+		System.out.println("\n1: Insert Emp\n2: Remove Emp\n3: Display all\n4: Display Female Emp\n5: Display Male Emp\n6: Empty Queue\n7: Display All Reverse\n8: exit");
+		System.out.println("Enter choice= ");
+		ch=sc.nextInt();
+		switch (ch) {
+		case 1:
+			System.out.println("Enter Emp id= ");
+			int id=sc.nextInt();
+			sc.nextLine();
+			System.out.println("Enter Full name= ");
+			String name=sc.nextLine();
+			System.out.println("Enter Gender(M/F)= ");
+			String gen=sc.nextLine();
+			Employee ob=new Employee(id, name, gen);
+			ll.insert(ob);
+			break;
+		case 2:
+			ll.remove();
+			break;
+		case 3:
+			ll.Display();
+			break;
+		case 4:
+			ll.dispalyFemale();
+			break;
+		case 5:
+			ll.displayMale();
+			break;
+		case 6:
+			ll.removeall();
+			break;
+		case 7:
+			ll.displayRev();
+			break;
+		case 8:
+			sc.close();
+			System.out.println("Thanks...");
+			System.exit(0);
+			break;			
+		default:
+			System.out.println("Invalid choice");
+			break;
+		}
+			
+		} while (ch!=0);
+	}
+
+}
+
+
+
+
+
+
+
+
+-------------------------------------------------------------------------------------
+public class BinaruySearchTree {
+
+    class Node{
+        int data;
+        Node left,right;
+        public Node(int d) {
+            data=d;
+            left=null;
+            right=null;
+        }
+    }
+    private Node root;
+    public BinaruySearchTree() {
+        root=null;
+    }
+
+    //insert key into tree
+    public void insert(int key) {
+        root=insertRec(root,key);
+
+    }
+    private Node insertRec(Node root,int key) {
+        /*if the tree is empty, then return a new node*/
+        if(root==null) {
+            root=new Node(key);
+            return root;
+        }//add it in the left subtree
+        if(key<root.data) {
+            root.left=insertRec(root.left,key);
+        }else {//add it in the right subtree
+            root.right=insertRec(root.right,key);
+        }
+        return root;
+    }
+
+    //inorder traversal
+    public void inorder() {
+        inorderTraversal(root);
+    }
+
+    private void inorderTraversal(Node root) {
+        if(root!=null) {
+            inorderTraversal(root.left);
+            System.out.print(root.data+",");
+            inorderTraversal(root.right);
+        }
+
+    }
+
+    //preorder traversal
+    public void preorder() {
+        preorderTraversal(root);
+    }
+
+    private void preorderTraversal(Node root) {
+        if(root!=null) {
+            System.out.print(root.data+",");
+            preorderTraversal(root.left);
+            preorderTraversal(root.right);
+        }
+
+    }
+    //preorder traversal
+    public void postorder() {
+        postorderTraversal(root);
+    }
+
+    private void postorderTraversal(Node root) {
+        if(root!=null) {
+            postorderTraversal(root.left);
+            postorderTraversal(root.right);
+            System.out.print(root.data+",");
+        }
+
+    }
+
+
+    public static void main(String[] args) {
+        BinaruySearchTree bst=new BinaruySearchTree();
+        /*       60
+         *      /   \
+         *     35    75
+         *    /  \   / \
+         *   20  40 70  85
+         *
+         *
+         */
+        bst.insert(60);
+        bst.insert(35);
+        bst.insert(75);
+        bst.insert(40);
+        bst.insert(20);
+        bst.insert(70);
+        bst.insert(85);
+        bst.inorder();
+        System.out.println();
+        System.out.println("--------------------------------");
+        bst.preorder();
+        System.out.println();
+        System.out.println("--------------------------------");
+        bst.postorder();
+    }
+
+}
+
+
+
+-----------------------------------------------------------------------------------------------------
+public static void bubblesort(int[] arr) {
+        int n = arr.length;
+        for (int i = 0; i < n; i++) {
+            for(int j=0;j<n-1;j++){
+                if(arr[j]>arr[j+1]){
+                    int temp=arr[j];
+                    arr[j]=arr[j+1];
+                    arr[j+1]=temp;
+                    }
+                }
+            }
+        System.out.println(Arrays.toString(arr));
+        }
+-------------------------------------------------------------------------------------------
+
+<<Selection Sort>>
+
+ public static void selectionsort(int arr[]){
+        for(int i=0;i<arr.length;i++){
+            int smallest=i;
+
+            for(int j=i+1;j<arr.length;j++){
+                if(arr[smallest]>arr[j]){
+                    smallest=j;
+                }
+                int temp=arr[smallest];
+                arr[smallest]=arr[i];
+                arr[i]=temp;
+            }
+
+        }
+        System.out.println(Arrays.toString(arr));
+
+    }
+---------------------------------------------------------------------------------------------------
+<<insertion sort>>>>
+
+  public static void insertionsort(int arr[]){
+        for(int i=1;i<arr.length;i++){
+            int current =arr[i];
+            int j=i-1;
+
+            while(j>=0 && current<arr[j]){
+                arr[j+1]=arr[j];
+                j--;
+            }
+            arr[j+1]=current;
+        }
+        System.out.println(Arrays.toString(arr));
+
+    }
